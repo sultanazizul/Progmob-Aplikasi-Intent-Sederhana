@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/code"
+        android:paddingLeft="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <!-- Nama Aplikasi -->
+    <TextView
+        android:id="@+id/appNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jago Koding"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"/>
+
+    <!-- Text Slogan -->
+    <TextView
+        android:id="@+id/sloganTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jadi Tau Tempatnya Belajar Koding!"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:layout_below="@id/appNameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/BtnFirstAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mulai Belajar!"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:id="@+id/BtnSecondAct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        />
+
+</LinearLayout>

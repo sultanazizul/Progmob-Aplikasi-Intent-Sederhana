@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <!-- Judul -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yuk Belajar"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:padding="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pelajari Materi Berupa Video dan Artikel"
+        android:gravity="center"
+        android:layout_marginTop="-10dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="247dp"
+        android:src="@drawable/thumbnail" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belajar Android Studio Dari 0"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp"
+        />
+
+    <!-- Button untuk menuju link -->
+    <Button
+        android:id="@+id/linkButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tonton"
+        android:layout_gravity="right"
+
+        android:layout_marginTop="-61dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="241dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/thumbnail1" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belajar Computer Vision"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp"
+        />
+
+    <!-- Button untuk menuju link -->
+
+    <Button
+        android:id="@+id/linkButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tonton"
+        android:layout_gravity="right"
+
+        android:layout_marginTop="-61dp"/>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cara Instal Android Studio"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp"
+        />
+
+    <!-- Button untuk menuju link -->
+
+    <Button
+        android:id="@+id/linkButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baca"
+        android:layout_gravity="right"
+
+        android:layout_marginTop="-61dp"/>
+
+
+
+
+</LinearLayout>
